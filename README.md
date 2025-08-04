@@ -93,7 +93,7 @@ to confirm the selected location.
 - **Initial ID (optional):** choose the first plot number.
   For example, if you enter `101`, numbering will start at 101 instead of 1.
 
- 5-*(Optional)* Load:
+ 🧩5-*(Optional)* Load:
 - Field map CSV (for custom plot numbering):  
   This will override the automatic numbering options.  
   The CSV must contain the same number of plots as specified by the number of rows × columns.
