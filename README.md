@@ -123,8 +123,9 @@ The first row must contain the column names (e.g., PLOT, EXAMPLE, BLOCK, etc.).
 
 Additional columns can include any variable you want to associate (e.g., block, genotype, treatment, yield, etc.).
 
-<img width="317" height="640" alt="image" src="https://github.com/user-attachments/assets/d9a0280f-51bf-47e9-976b-58a069c99685" />
+<img width="250" height="632" alt="image" src="https://github.com/user-attachments/assets/0aa75317-46b5-4a34-96ab-978f15bd9388" />
 
+-
 
 <img width="440" height="142" alt="image" src="https://github.com/user-attachments/assets/451230f3-b2bf-4d3c-ad77-1201ec062325" />
 
