@@ -2,21 +2,19 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7b86fe33-8d51-4673-a068-76cc487dc15f" />
 
 
+This QGIS plugin is a tool for the automatic generation of experimental plot polygons from a point layer that defines the boundaries of a field. It is ideal for the analysis of experimental designs in precision agriculture, allowing for seamless integration with external field data (traits) and plot design maps (field maps).
 
-
-A QGIS plugin to generate customizable grids of microplots for agricultural trials based on user-defined parameters and corner points.  
-It supports sequential and serpentine numbering, and can integrate external field data from CSV files.
-
+The tool generates a grid of plots, georeferences it to the field boundaries, and assigns identifiers and attributes, thus facilitating spatial analysis and data visualization.
 
 ## ✨ Features
 
-- **Customizable Grid:** Specify the number of rows and columns.
-- **Plot Sizing:** Define the length and width of individual plots.
-- **Flexible Numbering:** Choose between sequential and serpentine numbering; set an initial ID.
-- **Field Data Integration:** Load external CSV files and join them to the microplots using a common ID.
-- **Intuitive Corner Selection:** Select 4 corner points directly on the map canvas.
+## Características Principales
 
-
+-   **Plot Generation:** Creates a grid of plot polygons from four corner points.
+-   **Data Integration:** Allows for the assignment of field data (`.csv`) to each plot.
+-   **Flexible Numbering:** Uses a field map file (`.csv`) to assign `PlotID`s, respecting the experimental design.
+-   **Geometric Adjustments:** Allows for adjusting plot size and applying a buffer to the boundaries.
+-   
 ## 🛠 Installation
 
 1. Download or clone this repository.
@@ -94,7 +92,7 @@ to confirm the selected location.
 - **Initial ID (optional):** choose the first plot number.
   For example, if you enter `101`, numbering will start at 101 instead of 1.
 
-5-*(Optional)* Load:
+5-*(Optional)### PlotID and Attribute Configuration**
 - Field map CSV (for custom plot numbering):  
   This will override the automatic numbering options.  
   The CSV must contain the same number of plots as specified by the number of rows × columns.
@@ -128,8 +126,11 @@ Additional columns can include any variable you want to associate (e.g., block, 
 -
 
 <img width="440" height="142" alt="image" src="https://github.com/user-attachments/assets/451230f3-b2bf-4d3c-ad77-1201ec062325" />
+.
 
  The image shows the attribute table in QGIS, where the PLOT (PlotID) column and the example and block columns—joined from the CSV file using the plugin function—can be seen.
+ .
+ 
 <img width="510" height="671" alt="image" src="https://github.com/user-attachments/assets/af88f170-071e-4ea2-bbd3-1bab13751bea" />
 
 
