@@ -25,6 +25,7 @@ It supports sequential and serpentine numbering, and can integrate external fiel
  <img width="651" height="341" alt="image" src="https://github.com/user-attachments/assets/06502863-1624-48f6-96f2-2e421811ab03" />
 <img width="988" height="750" alt="image" src="https://github.com/user-attachments/assets/c715fc19-04e3-4601-afab-f05e53ac147a" />
 <img width="839" height="262" alt="image" src="https://github.com/user-attachments/assets/69b1add6-b18a-4a74-9391-36b2198fe5ab" />
+<img width="949" height="225" alt="image" src="https://github.com/user-attachments/assets/2e0f7e1f-57e6-42bf-b3b9-95533d09086e" />
 
 3.  Restart QGIS or enable the plugin from the Plugin Manager
 
@@ -93,7 +94,7 @@ to confirm the selected location.
 - **Initial ID (optional):** choose the first plot number.
   For example, if you enter `101`, numbering will start at 101 instead of 1.
 
- 🧩5-*(Optional)* Load:
+5-*(Optional)* Load:
 - Field map CSV (for custom plot numbering):  
   This will override the automatic numbering options.  
   The CSV must contain the same number of plots as specified by the number of rows × columns.
@@ -108,22 +109,36 @@ to confirm the selected location.
 
 <img width="735" height="648" alt="image" src="https://github.com/user-attachments/assets/0a240cf2-d52d-4593-adcb-168334e20220" />
 
-- Plot data CSV (with additional information to join):
-  You must select the column from your CSV that matches the plot numbering in the grid (PlotID).  
-  This is the column that contains the plot numbers that the plugin will use to join the data.
+🧩 Plot data CSV (with additional information to join)
 
-You can include as many additional columns as you like in your CSV 
-(e.g., block, genotype, treatment, yield, etc.).  
-In the following example, the column that identifies the plots is named **"PARCELA"** (in Spanish).
+Optionally, you can upload a CSV file to add extra information to the attribute table of each generated plot.
 
-<img width="327" height="616" alt="image" src="https://github.com/user-attachments/assets/92d7a437-0179-4e96-87d9-9edce9a99c00" />
+You must select the column in your CSV that matches the PlotID assigned to each microplot in the generated layer. This column will be used to join the data.
+
+The CSV file must be structured as follows:
+
+Each row corresponds to one plot.
+
+The first row must contain the column names (e.g., PLOT, EXAMPLE, BLOCK, etc.).
+
+Additional columns can include any variable you want to associate (e.g., block, genotype, treatment, yield, etc.).
+
+<img width="317" height="640" alt="image" src="https://github.com/user-attachments/assets/d9a0280f-51bf-47e9-976b-58a069c99685" />
 
 
-  <img width="440" height="144" alt="image" src="https://github.com/user-attachments/assets/54082efb-855d-44ae-b55e-d0f1fe0fe002" />
+<img width="440" height="142" alt="image" src="https://github.com/user-attachments/assets/451230f3-b2bf-4d3c-ad77-1201ec062325" />
 
-<img width="284" height="661" alt="image" src="https://github.com/user-attachments/assets/c89c1a0a-a016-4466-9b7b-3ed64c4bc1f8" />
+ The image shows the attribute table in QGIS, where the PLOT (PlotID) column and the example and block columns—joined from the CSV file using the plugin function—can be seen.
+<img width="510" height="671" alt="image" src="https://github.com/user-attachments/assets/af88f170-071e-4ea2-bbd3-1bab13751bea" />
 
-5. Click **Create Grid** — a new microplots layer will appear in your QGIS project.
+
+
+💾 Output File (Optional)
+In this step, you can choose a location to permanently save the generated shapefile.
+
+If left blank, a temporary layer will be created and added to the project.
+To save the file, click the ... button and choose a folder and filename.
+<img width="455" height="88" alt="image" src="https://github.com/user-attachments/assets/02a1bb63-0b17-47bf-9470-e5d211291c42" />
 
 
 
