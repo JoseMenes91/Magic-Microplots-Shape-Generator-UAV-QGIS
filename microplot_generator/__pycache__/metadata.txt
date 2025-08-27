@@ -1,0 +1,10 @@
+[general]
+name=Magic Microplots Shape Generator – UAV
+description=Creates a grid of microplots for agricultural trials.
+version=0.1
+author=José Fernando Menes
+email=menes.josefernando@inta.gob.ar
+qgisMinimumVersion=3.0
+
+[requirements]
+python_libs=pandas,numpy,scipy
