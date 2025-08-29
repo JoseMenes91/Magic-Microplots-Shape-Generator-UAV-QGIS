@@ -2,7 +2,7 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7b86fe33-8d51-4673-a068-76cc487dc15f" />
 
 
-This QGIS plugin is a tool for the automatic generation of experimental plot polygons from a point layer that defines the boundaries of a field. It is ideal for the analysis of experimental designs in precision agriculture, allowing for seamless integration with external field data (traits) and plot design maps (field maps).
+This QGIS plugin is a tool for the automatic generation of experimental plot polygons from a point layer that defines the boundaries of a field. It is ideal for the analysis of experimental designs, allowing for seamless integration with external field data (traits) and plot design maps (field maps).
 
 The tool generates a grid of plots, georeferences it to the field boundaries, and assigns identifiers and attributes, thus facilitating spatial analysis and data visualization.
 
