@@ -1,22 +1,20 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as follows."
-title: "Magic Microplots Shape Generator – UAV: A QGIS plugin for experimental plot generation"
+title: "Magic Microplots Shape Generator – UAV"
 version: 0.0.1
 date-released: 2026-01-13
 type: software
+doi: 10.5281/zenodo.18231789
+url: https://github.com/JoseMenes91/Magic-Microplots-Shape-Generator-UAV-QGIS
 
 authors:
   - family-names: Menes
     given-names: José Fernando
     affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA), Estación Experimental Agropecuaria Pergamino
-   
 
   - family-names: Portillo
     given-names: Javier Esteban
     affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA), Estación Experimental Agropecuaria Pergamino
-  
-
-repository-code: https://github.com/JoseMenes91/Magic-Microplots-Shape-Generator-UAV-QGIS
 
 keywords:
   - uav
@@ -28,3 +26,4 @@ keywords:
   - precision-agriculture
   - remote-sensing
   - qgis-plugin
+
