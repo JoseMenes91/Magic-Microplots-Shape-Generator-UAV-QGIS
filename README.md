@@ -138,6 +138,10 @@ In this step, you can choose a location to permanently save the generated shapef
 If left blank, a temporary layer will be created and added to the project.
 To save the file, click the ... button and choose a folder and filename.
 
+
+**Citation**
+José Fernando Menes, & Portillo, J. E. (2026). Magic Microplots Shape Generator – UAV (v.0.0.1). Zenodo. https://doi.org/10.5281/zenodo.18231789
+
 <img width="455" height="88" alt="image" src="https://github.com/user-attachments/assets/02a1bb63-0b17-47bf-9470-e5d211291c42" />
 
 
