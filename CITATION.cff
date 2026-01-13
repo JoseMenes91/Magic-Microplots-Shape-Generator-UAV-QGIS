@@ -9,12 +9,12 @@ authors:
   - family-names: Menes
     given-names: José Fernando
     affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA)
-    orcid: https://orcid.org/0000-0000-0000-0000
+   
 
   - family-names: Portillo
     given-names: Javier Esteban
     affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA); Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)
-    orcid: https://orcid.org/0000-0000-0000-0000
+  
 
 repository-code: https://github.com/JoseMenes91/Magic-Microplots-Shape-Generator-UAV-QGIS
 
