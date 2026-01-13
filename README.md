@@ -8,7 +8,7 @@ The tool generates a grid of plots, georeferences it to the field boundaries, an
 
 ## ✨ Features
 
-## Características Principales
+## Key Features
 
 -   **Plot Generation:** Creates a grid of plot polygons from four corner points.
 -   **Data Integration:** Allows for the assignment of field data (`.csv`) to each plot.
@@ -39,10 +39,7 @@ The tool generates a grid of plots, georeferences it to the field boundaries, an
    ✅ When you click each point, a red cross will appear on the map canvas
 to confirm the selected location.
 
-> 📍 **Tip:** For better alignment, place the points in the inter-row space:  
-> - before the first row (Top Left and Bottom Left), and  
-> - after the last row (Top Right and Bottom Right).  
-> This ensures the grid covers all plots completely without cutting into the edge rows.
+> 📍 **Tip:** Tip: For improved grid alignment, place the corner points before the first crop row and after the last crop row, positioning them in the inter-row space rather than directly over planted rows. This ensures that the generated grid fully covers all plots without cutting into the outer rows. traduci
 
 <img width="776" height="325" alt="image" src="https://github.com/user-attachments/assets/3d85eb80-0113-49f1-809f-b034e3245120" />
 
@@ -140,6 +137,7 @@ In this step, you can choose a location to permanently save the generated shapef
 
 If left blank, a temporary layer will be created and added to the project.
 To save the file, click the ... button and choose a folder and filename.
+
 <img width="455" height="88" alt="image" src="https://github.com/user-attachments/assets/02a1bb63-0b17-47bf-9470-e5d211291c42" />
 
 
