@@ -8,12 +8,12 @@ type: software
 authors:
   - family-names: Menes
     given-names: José Fernando
-    affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA)
+    affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA), Estación Experimental Agropecuaria Pergamino
    
 
   - family-names: Portillo
     given-names: Javier Esteban
-    affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA); Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)
+    affiliation: Instituto Nacional de Tecnología Agropecuaria (INTA), Estación Experimental Agropecuaria Pergamino
   
 
 repository-code: https://github.com/JoseMenes91/Magic-Microplots-Shape-Generator-UAV-QGIS
