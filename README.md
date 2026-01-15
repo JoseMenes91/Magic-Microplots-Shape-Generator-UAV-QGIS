@@ -142,10 +142,7 @@ To save the file, click the ... button and choose a folder and filename.
 
 
 **Citation**
-
-José Fernando Menes, & Portillo, J. E. (2026). Magic Microplots Shape Generator – UAV (v.0.0.1). Zenodo. https://doi.org/10.5281/zenodo.18231789
-
-
+Menes, J. F., & Portillo, J. E. (2026). Magic Microplots Shape Generator – UAV (v.0.0.1). Zenodo. https://doi.org/10.5281/zenodo.18231789
 
 
 
