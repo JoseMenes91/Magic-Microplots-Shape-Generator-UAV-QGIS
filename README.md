@@ -2,18 +2,20 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7b86fe33-8d51-4673-a068-76cc487dc15f" />
 
 
-This QGIS plugin is a tool for the automatic generation of experimental plot polygons from a point layer that defines the boundaries of a field. It is ideal for the analysis of experimental designs, allowing for seamless integration with external field data (traits) and plot design maps (field maps).
-
-The tool generates a grid of plots, georeferences it to the field boundaries, and assigns identifiers and attributes, thus facilitating spatial analysis and data visualization.
+This QGIS plugin generates polygon vector layers (shapefiles) for experimental plots of any desired size. By marking the four corners of a trial on the map and defining the number of rows and columns, the tool automatically builds a customized grid. It is especially useful for field phenotyping, allowing you to quickly link field map designs and trait data to the vector layer.
 
 ## ✨ Features
 
 ## Key Features
 
--   **Plot Generation:** Creates a grid of plot polygons from four corner points.
--   **Data Integration:** Allows for the assignment of field data (`.csv`) to each plot.
--   **Flexible Numbering:** Uses a field map file (`.csv`) to assign `PlotID`s, respecting the experimental design.
--   **Geometric Adjustments:** Allows for adjusting plot size and applying a buffer to the boundaries.
+#Vector Layer Generation: Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
+#Segmentation Modes (Region of Interest - ROI Generation):
+#Homogeneous Grid: Divides the total area into a continuous grid of Regions of Interest (ROIs).
+#Custom Dimensions: Generates ROIs with specific length and width measurements centered within each grid cell, ensuring data extraction avoids the edge effect.
+#Automatic Numbering: Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
+#Field Map Integration (Custom Numbering): Alternatively, load a primary .csv (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
+#Attribute Data Join: Loads a secondary .csv or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
+
 -   
 ## 🛠 Installation
 
