@@ -8,13 +8,19 @@ This QGIS plugin generates polygon vector layers (shapefiles) for experimental p
 
 ## Key Features
 
-#Vector Layer Generation: Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
-#Segmentation Modes (Region of Interest - ROI Generation):
-#Homogeneous Grid: Divides the total area into a continuous grid of Regions of Interest (ROIs).
-#Custom Dimensions: Generates ROIs with specific length and width measurements centered within each grid cell, ensuring data extraction avoids the edge effect.
-#Automatic Numbering: Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
-#Field Map Integration (Custom Numbering): Alternatively, load a primary .csv (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
-#Attribute Data Join: Loads a secondary .csv or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
+Vector Layer Generation: Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
+
+Segmentation Modes (Region of Interest - ROI Generation):
+
+Homogeneous Grid: Divides the total area into a continuous grid of Regions of Interest (ROIs).
+
+Custom Dimensions: Generates ROIs with specific length and width measurements centered within each grid cell, ensuring data extraction avoids the edge effect.
+
+Automatic Numbering: Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
+
+Field Map Integration (Custom Numbering): Alternatively, load a primary .csv (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
+
+Attribute Data Join: Loads a secondary .csv or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
 
 -   
 ## 🛠 Installation
