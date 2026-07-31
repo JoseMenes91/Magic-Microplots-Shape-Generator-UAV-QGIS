@@ -2,26 +2,19 @@
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7b86fe33-8d51-4673-a068-76cc487dc15f" />
 
 
-This QGIS plugin generates polygon vector layers (shapefiles) for experimental plots of any desired size. By marking the four corners of a trial on the map and defining the number of rows and columns, the tool automatically builds a customized grid. It is especially useful for field phenotyping, allowing you to quickly link field map designs and trait data to the vector layer.
+This QGIS plugin automates the creation of multiple experimental plots simultaneously, generating a complete polygon vector layer (shapefile) in seconds. By marking the four corners of a trial on the map and defining the number of rows and columns, the tool automatically draws all the individual polygons needed to form the complete trial grid. It is especially useful for field phenotyping, allowing you to quickly link field map designs and trait data to the vector layer.
 
 ## ✨ Features
 
-## Key Features
+### ✨ Features
 
-Vector Layer Generation: Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
-
-Segmentation Modes (Region of Interest - ROI Generation):
-
-Homogeneous Grid: Divides the total area into a continuous grid of Regions of Interest (ROIs).
-
-Custom Dimensions: Generates ROIs with specific length and width measurements centered within each grid cell, ensuring data extraction avoids the edge effect.
-
-Automatic Numbering: Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
-
-Field Map Integration (Custom Numbering): Alternatively, load a primary .csv (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
-
-Attribute Data Join: Loads a secondary .csv or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
-
+*   **Vector Layer Generation:** Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
+*   **Segmentation Modes (Region of Interest - ROI Generation):**
+    *   *Homogeneous Grid:* Divides the total area into a continuous grid of Regions of Interest (ROIs).
+    *   *Custom Dimensions:* Generates ROIs with specific length and width measurements centered within each grid cell, ensuring data extraction avoids the edge effect.
+*   **Automatic Numbering:** Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
+*   **Field Map Integration (Custom Numbering):** Alternatively, load a primary `.csv` (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
+*   **Attribute Data Join:** Loads a secondary `.csv` or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
 -   
 ## 🛠 Installation
 
