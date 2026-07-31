@@ -6,7 +6,7 @@ This QGIS plugin automates the creation of multiple experimental plots simultane
 
 ## ✨ Features
 
-### ✨ Features
+
 
 *   **Vector Layer Generation:** Creates a polygon shapefile of the trial grid based on the 4 marked corners and the specified row/column count.
 *   **Segmentation Modes (Region of Interest - ROI Generation):**
@@ -15,7 +15,7 @@ This QGIS plugin automates the creation of multiple experimental plots simultane
 *   **Automatic Numbering:** Automatically generates PlotIDs in sequential or serpentine order, perfectly mirroring standard field walking and harvesting methodologies.
 *   **Field Map Integration (Custom Numbering):** Alternatively, load a primary `.csv` (field map) to override the auto-numbering and assign specific PlotIDs to each polygon, matching complex trial layouts.
 *   **Attribute Data Join:** Loads a secondary `.csv` or Excel file to link experimental data (treatments, genotypes, blocks) directly into the shapefile's attribute table, matching the previously assigned PlotIDs.
--   
+
 ## 🛠 Installation
 
 1. Download or clone this repository.
